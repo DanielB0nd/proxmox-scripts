@@ -103,7 +103,7 @@ else
 fi
 info "Using '$STORAGE' for storage location."
 
-CTID=$(pvesh get /cluster/nextid)
+CTID=4141
 info "LXC ID is $CTID."
 
 msg "Updating LXC template list..."
